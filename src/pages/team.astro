@@ -2,6 +2,7 @@
 import Layout from "../layout.astro";
 import org from "../org.json";
 import Card from "../components/team/card.astro";
+import Testmodal from "@/components/team/testmodal.astro";
 
 type TeamMember = {
   githubLink?: string;
@@ -156,6 +157,7 @@ const members = {
 ---
 
 <Layout title="Our Team" desc="The team running BuildingBloCS!" showTitle>
+  <!-- <Testmodal /> -->
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="">Our OICs</h2>
     <p class="text-slate-300 my-3">
